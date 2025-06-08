@@ -1,4 +1,4 @@
-# Efficient_Document_Shadow_Removal_with_Contrast-Aware_Guidance
+# Efficient Document Shadow Removal with Contrast-Aware Guidance
 
 
 ## <a name="todo"></a>:climbing:TODO
