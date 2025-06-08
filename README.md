@@ -10,4 +10,4 @@
 Coming soon！ We are currently cleaning up the code and will release both the code and pretrained models as soon as possible.
 
 ## Acknowledgement
-This project is based on [DocDiff][https://github.com/Royalvice/DocDiff], we would like to thank the authors for their excellent work.
+This project is based on [DocDiff](https://github.com/Royalvice/DocDiff), we would like to thank the authors for their excellent work.
