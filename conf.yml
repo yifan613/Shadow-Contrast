@@ -1,0 +1,19 @@
+# model
+IMAGE_SIZE : [768, 768]   # load image size, if it's train mode, it will be randomly cropped to IMAGE_SIZE. If it's test mode, it will be resized to IMAGE_SIZE.
+CHANNEL_X : 3             # input channel
+CHANNEL_Y : 3             # output channel
+TIMESTEPS : 100           # diffusion steps, # step needs to be determined.
+SCHEDULE : 'linear'       # linear or cosine
+MODEL_CHANNELS : 32       # basic channels of Unet
+NUM_RESBLOCKS : 1         # number of residual blocks
+CHANNEL_MULT : [1,2,3,4]  # channel multiplier of each layer
+NUM_HEADS : 1
+
+PRE_ORI : 'True'          # if True, predict $x_0$, else predict $\epsilon$.
+NUM_WORKERS: 8
+
+# test
+BATCH_SIZE_VAL : 1        # test batch size
+TEST_PATH_IMG : './SD7K_for_test/test/input' # '/home/yfliu/Thesis_Work/shadow_dataset/lkljty___ShadowDocument7K/test/img_truth'        # path of input
+WEIGHT_PATH : './checkpoint.pth'  
+TEST_IMG_SAVE_PATH : './res_sd7k_test'      
