@@ -21,8 +21,8 @@ pip install -r requirements.txt
 ##  Run the project
 Please make sure to update the paths in `conf.yml` according to your local setup.  
 The pretrained model used in this project can be downloaded from the [Releases](https://github.com/yifan613/Shadow-Contrast/releases) page.  
-Test datasets and the corresponding inference results can be found at the following OneDrive link:  
-👉 [Googledrive link](https://drive.google.com/drive/folders/13WhAj11Y9Bc-vQJZkRwrLdcb-Boako1v?usp=drive_link) 
+Test datasets and the corresponding inference results can be found at the following Google Drive link:  
+👉 [Google Drive link](https://drive.google.com/drive/folders/13WhAj11Y9Bc-vQJZkRwrLdcb-Boako1v?usp=drive_link) 
 ```
 python main.py
 ```
